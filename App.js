@@ -1,10 +1,9 @@
 import React from 'react';
-import News from './News';
-import {useState, useEffect} from 'react';
+import React from './News';
 
 function App() {
 
-    const [data, setData] = useState([]);
+    const [data, setData] = useState({});
   
     useEffect(()=>{
       if(!data.length){
